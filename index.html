@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="plunker">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="js/angular.min.js" charset="utf-8"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+    <script src="js/jquery.min.js" charset="utf-8"></script>
+    <script src="js/papaparse.min.js" charset="utf-8"></script>
+  </head>
+  <body ng-controller="MainCtrl">
+    <input type="file" file-reader="fileContent">
+    <button type="button" name="button" ng-click="converteCsv()">Converter</button>
+  </body>
+</html>
